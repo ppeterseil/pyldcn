@@ -1,5 +1,5 @@
 # Python-native implementation of LcdnLib
-This is a basic python-native implementation of LcdnLib. It implements basic Lcdn methods as well as most of the stepper methods. It solely relies on the package `pyserial`.
+This is a basic python-native implementation of LcdnLib. It implements some Lcdn and stepper methods. It solely relies on the package `pyserial`.
 
 ## Lcdn methods
 The following Lcdn methods were implemented.
