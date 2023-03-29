@@ -8,7 +8,6 @@ authors = [
   { name="Philipp Peterseil", email="philipp.peterseil@jku.at" },
 ]
 description = "Python-native implementation of LdcnLib"
-long_description="This is a basic python-native implementation of LdcnLib. It implements some Ldcn and stepper methods. It solely relies on the package pyserial. To find out how it is used, either check LdcnLib documentation or examples given in the repo."
 readme = "README.md"
 requires-python = ">=3.7"
 dependencies = ["pyserial~=3.4"]
@@ -16,8 +15,8 @@ classifiers = [
     "Programming Language :: Python :: 3",
     "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
-]
 
+]
 [project.urls]
 "Homepage" = "https://github.com/ppeterseil/pyldcn"
 "Bug Tracker" = "https://github.com/ppeterseil/pyldcn/issues"
