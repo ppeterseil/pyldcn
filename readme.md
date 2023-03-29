@@ -1,8 +1,8 @@
-# Python-native implementation of LcdnLib
-This is a basic python-native implementation of LcdnLib. It implements some Lcdn and stepper methods. It solely relies on the package `pyserial`.
+# Python-native implementation of LdcnLib
+This is a basic python-native implementation of LdcnLib. It implements some Ldcn and stepper methods. It solely relies on the package `pyserial`.
 
-## Lcdn methods
-The following Lcdn methods were implemented.
+## Ldcn methods
+The following Ldcn methods were implemented.
 
 
 | Method             | Description                                     |
@@ -31,7 +31,7 @@ The following Stepper methods were implemented.
 | StepResetPos       | Reset motor position to 0                       |
 
 ## Usage
-To find out how the methods are used, either check LcdnLib documentation or example given in `demo.py`.
+To find out how the methods are used, either check LdcnLib documentation or example given in `demo.py`.
 
 ## Disclaimer
 Usage at your *own risk*, the implementation is *neither complete nor well tested*.
