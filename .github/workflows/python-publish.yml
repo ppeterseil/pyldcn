@@ -32,7 +32,7 @@ jobs:
         pip install build
     - name: Prepare versioning
       run: |
-        export GITHUB_VERSION=$(git describe --tags --long --always)
+        export GITHUB_VERSION=$(git describe --tags --always)
         sed -i "s/\$GITHUB_VERSION/$GITHUB_VERSION/g" pyproject.toml
     - name: Build package
       run: python -m build
